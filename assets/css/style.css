@@ -1,0 +1,103 @@
+.navbar{
+    background-color: transparent !important;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+}
+
+.navbar-brand{
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.carr img{
+    width: 100%;
+    height: 570px;
+}
+
+@media only screen and (max-width: 480px){ 
+    .carr img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1023px){
+    .carr img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .carr img{
+        width: 100%;
+        height:570px;
+    }
+}
+
+#Quienes-Somos{
+    font-family: "Open Sans";
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+hr{
+    border: none;
+    height: 3px !important;
+    background-color: #1da4b6; 
+}
+
+.iconos{
+    background-color: #1da4b6;
+}
+#Destacados{
+    font-family: "Open Sans";
+    background-color: #000000;
+}
+#Destacados .card-body{
+    background-color:#1da4b6;
+    color:#FFFFFF;
+    min-height: 300px;
+}
+
+.dest img{
+    width: 100%;
+    height: 170px;
+}
+
+@media only screen and (max-width: 480px){
+    .dest img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1023px){
+    .dest img{
+        width: 100%;
+        height: 170px;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .dest img{
+        width: 100%;
+        height:170px;
+    }
+}
+
+#Contacto{
+    background-color: #000000;
+    font-family: "Open Sans";
+}
+
+#Footer{
+    background-color:#1da4b6 ;
+    font-family: "Open Sans";
+}
+#Footer a{
+    color: #FFFFFF;
+    text-decoration:none;
+}
