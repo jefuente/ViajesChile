@@ -1,7 +1,7 @@
 .navbar{
     background-color: transparent !important;
     position: fixed;
-    width: 100vw;
+    width: 100%;
     z-index: 1;
 }
 
@@ -93,11 +93,12 @@ hr{
     font-family: "Open Sans";
 }
 
-#Footer{
+footer{
     background-color:#1da4b6 ;
     font-family: "Open Sans";
 }
-#Footer a{
+footer a{
     color: #FFFFFF;
     text-decoration:none;
 }
+
